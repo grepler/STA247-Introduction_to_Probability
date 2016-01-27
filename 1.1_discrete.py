@@ -25,7 +25,6 @@ def count_sums(rolls):
     """
     Return a dictionary of sums and their counts.
 
-
     :param rolls:
     :type rolls:
     :return: dict
