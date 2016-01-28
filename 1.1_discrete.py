@@ -42,4 +42,9 @@ def count_sums(rolls):
     return counts
 
 
-rolls = roll_triples(200,6)
+
+class Roulette(n):
+    """
+    A basic Roulette wheel.
+    """
+
