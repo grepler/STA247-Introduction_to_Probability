@@ -41,10 +41,10 @@ def question4b():
 
 def question4b_var():
 
-    lst2 = [x for x in range(1000000, 10000000)]
+    lst2 = [x for x in range(1, 10000000)]
     count = 0
     for num in lst2:
-        if num % 2 == 0 and len(str(num)) == len(set(list(str(num)))):
+        if num % 2 == 0 and len(str(num))==7 and len(str(num)) == len(set(list(str(num)))):
             count += 1
     return count
 
@@ -52,12 +52,12 @@ import time
 start_time = time.time()
 
 print("--- Question 4a ---")
-print("initial list comprehension approach", question4a())
-print("--- %s seconds ---" % (time.time() - start_time))
-print("second set and list length approach", question4a_var())
-print("--- %s seconds ---" % (time.time() - start_time))
-print("here's my paper solution", 5*8*8*7*6*5*4)
-print("--- %s seconds ---" % (time.time() - start_time))
+# print("initial list comprehension approach", question4a())
+# print("--- %s seconds ---" % (time.time() - start_time))
+# print("second set and list length approach", question4a_var())
+# print("--- %s seconds ---" % (time.time() - start_time))
+# print("here's my paper solution", 5*8*8*7*6*5*4)
+# print("--- %s seconds ---" % (time.time() - start_time))
 
 
 print("--- Question 4b ---")
